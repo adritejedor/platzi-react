@@ -15,8 +15,6 @@ const App = () => {
 
    const initialState = useInitialState(API);
 
-    console.log(initialState);
-
     return (
         <div className="App">
             <Header />
