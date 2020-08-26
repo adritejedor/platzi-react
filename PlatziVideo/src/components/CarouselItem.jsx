@@ -1,7 +1,7 @@
 import React from 'react';
 import { connect } from 'react-redux';
 import { setFavorite, deleteFavorite } from '../actions/index'
-import propTypes, { string } from 'prop-types';
+import propTypes from 'prop-types';
 import '../assets/styles/components/CarouselItem.scss';
 import plus from '../assets/static/plus-icon.png';
 import play from '../assets/static/play-icon.png';
