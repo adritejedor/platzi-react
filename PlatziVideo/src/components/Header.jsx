@@ -9,7 +9,7 @@ import logo from '../assets/static/logo-platzi-video-BW2.png';
 import userIcon from '../assets/static/user-icon.png';
 
 const Header = props => {
-  const { user } = props;
+  const { user, isLogin, isRegister } = props;
   const hasUser = Object.keys(user).length > 0;
 
   const handleLogout = () => {
